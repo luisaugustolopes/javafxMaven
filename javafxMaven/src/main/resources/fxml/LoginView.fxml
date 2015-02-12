@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="164.0" prefWidth="310.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.lopes.application.controller.LoginViewController">
+   <children>
+      <Label layoutX="48.0" layoutY="44.0" text="Usuário">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textFieldUsuario" layoutX="99.0" layoutY="41.0" />
+      <Label layoutX="48.0" layoutY="79.0" prefHeight="20.0" prefWidth="40.0" text="Senha">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="textFieldSenha" layoutX="100.0" layoutY="76.0" />
+      <HBox layoutX="100.0" layoutY="123.0" prefHeight="25.0" prefWidth="149.0" spacing="20.0">
+         <children>
+            <Button defaultButton="true" layoutX="99.0" layoutY="144.0" mnemonicParsing="false" onAction="#btnEntrarClick" prefHeight="25.0" prefWidth="74.0" text="Entrar" />
+            <Button cancelButton="true" layoutX="174.0" layoutY="144.0" mnemonicParsing="false" onAction="#btnSairClick" prefHeight="25.0" prefWidth="73.0" text="Sair" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
