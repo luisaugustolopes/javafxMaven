@@ -1,3 +1,3 @@
 #javafxMaven
 
-#Exemplo de aplicação JavaFX utilizando Maven - Hibernate - JPA
+Exemplo de aplicação JavaFX utilizando Maven - Hibernate - JPA
